@@ -1,0 +1,93 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+html {
+    font-size: 14px; /* ルート要素のフォントサイズを1rem=14pxと定義する */
+} 
+
+div#contents .pola p {
+    margin:0;
+    padding:0 10px 10px 10px;
+    font-size:82%;/* 13px相当 */
+    line-height:1.2;
+    border-left:1px solid #E7E7E7;
+    border-right:1px solid #E7E7E7;
+    border-bottom:1px solid #E7E7E7;
+ }
+
+
+div#contents div.pnum {
+   clear:both;
+   float: left;
+   width: 35px;
+   font-size: 10pt;
+}
+
+div#contents div.ptitle {
+    margin-left:  35px;
+   font-size: 10pt;
+}
+
+div#contents div.pinfo {
+   font-size:  10pt;
+   margin-left:  35px;
+}
+
+ h4 {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    font-size:100%; 
+ }
+
+iframe {
+  width: 80vw;
+  min-width: 300px;
+  height: 80vw;
+  min-height: 300px;
+}
+@media screen and (min-width: 500px) {
+  iframe {
+    max-width: 800px;
+    height: calc(80vw * 3 / 4);
+    max-height: 600px;
+  }
+}
+
+.gmap {
+position: relative;
+padding-bottom: 100%; // これが縦横比
+height: 0;
+overflow: hidden;
+}
+.gmap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+:root{
+    --font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
