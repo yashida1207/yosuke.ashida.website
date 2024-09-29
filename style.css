@@ -99,7 +99,7 @@ body {
     border: none; /* ボーダーを無しに */
     border-radius: 0; /* 角を丸くしない */
     padding: 15px; /* パディングを設定 */
-    font-size: 16px; /* フォントサイズを設定 */
+    font-size: 18px; /* フォントサイズを設定 */
     text-align: center; /* テキストを中央に */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* シャドウを追加 */
     transition: background-color 0.3s; /* ホバー時のアニメーション */
