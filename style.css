@@ -94,7 +94,7 @@ body {
 .bar-button {
     display: block; /* ブロック要素にする */
     width: 100%; /* 幅を100%に設定 */
-    background-color: #007bff; /* 背景色を設定 */
+    background-color: #5c5d5e; /* 背景色を設定 */
     color: white; /* テキスト色を白に */
     border: none; /* ボーダーを無しに */
     border-radius: 0; /* 角を丸くしない */
