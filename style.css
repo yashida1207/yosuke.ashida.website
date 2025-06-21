@@ -2,8 +2,6 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
-  font-size: 18px;
-  padding: 40px;
 }
 
 @media screen and (max-width: 768px) {  /* スマホ */ 
