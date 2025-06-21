@@ -2,6 +2,22 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
+  font-size: 18px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 768px) {  /* スマホ */ 
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {  /* タブレット */
+  body {
+    font-size: 17px;
+    padding: 30px;
+  }
 }
 
 html {
